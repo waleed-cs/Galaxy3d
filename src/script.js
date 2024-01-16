@@ -258,7 +258,7 @@ const raycaster = new THREE.Raycaster();
 const mouse = new THREE.Vector2();
 //handle on click for the planets
 const onClickHandler = (e) => {
-  let minDistance = 40;
+  let minDistance = 70;
   mouse.x = (e.clientX / sizes.width) * 2 - 1;
   mouse.y = -(e.clientY / sizes.height) * 2 + 1;
   raycaster.setFromCamera(mouse, camera);
